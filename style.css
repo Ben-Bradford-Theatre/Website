@@ -1,0 +1,202 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 0 10%;
+}
+
+/* Header Styling */
+header {
+    background-color: #004d00; /* Deep Green */
+    color: #f4f4f4; /* Soft White */
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #c9a84a; /* Gold */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f4f4f4; /* Soft White */
+}
+
+/* Main Content */
+main {
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #004d00;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="checkbox"],
+input[type="number"] {
+    margin-left: auto;
+}
+
+input[type="number"] {
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #004d00;
+}
+
+button {
+    background-color: #004d00;
+    color: #f4f4f4;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #333333;
+    font-size: 0.9rem;
+    border-top: 1px solid #cccccc;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 0 5%;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+}
+
+/* Booking Page Specific Styles */
+fieldset {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #004d00;
+}
+
+.schedule-entry, .event-entry {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+#add-schedule-entry, #add-event-entry {
+    background-color: #c9a84a; /* Gold */
+    color: #004d00; /* Deep Green */
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-schedule-entry:hover, #add-event-entry:hover {
+    background-color: #333333;
+    color: #f4f4f4;
+}
+
+#total-cost {
+    font-size: 1.3rem;
+    color: #c90000; /* Dark Red */
+    font-weight: bold;
+}
+/* Table Styling for pricing */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+th {
+    background-color: #004d00;
+    color: #f4f4f4;
+    font-size: 1.2rem;
+}
+
+td {
+    color: #333333;
+    font-size: 1.1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
